@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+body{
+    background-color:#FFFAF0;
+}
+header {
+    background-color: #97c39d;
+}
+
+header h1{
+    text-align: center;
+    background-color: #749c79;
+    padding-top: 0.5em;
+}
+header h2{
+    text-align: center;
+    background-color: #749c79;
+    padding-bottom: 0.2em;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 0.9em 0em;
+    list-style: none;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 0.2em;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    padding: 0.2em 0.5em;
+    transition: ease-in;
+}
+.huidigepagina {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+div:nth-child(odd){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    padding-bottom: 4em;
+}
+
+div:nth-child(odd) > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+}
+
+div:nth-child(odd) article {
+    width: 45%;
+    padding-right: 3em;
+
+}
+
+div:nth-child(odd) h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1em;
+}
+
+div:nth-child(odd) p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+div:nth-child(odd) a {
+    text-decoration: none;
+    color: #ff7f50; 
+    font-weight: bolder;
+    display: block;
+    width: 7em;
+    transition: ease-in 200ms;
+}
+
+div:nth-child(odd)  a:hover {
+    color: #c03a20;
+    transform: scale(1.3);
+}
+
+div:nth-child(odd) div {
+    width: 45%;
+}
+
+div:nth-child(odd) img {
+    width: 100%; 
+    border-radius: 8px;
+}
+#frontvideo{
+    width: 40%;
+    height: 100%;
+    margin: 3em;
+    border:solid 7px #6e9573;
+    box-shadow: 15px 15px 15px #acc4af;
+}
+section>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+section div article{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color:#FFFAF0;
+    box-shadow: 10px 5px 5px #000000;
+    padding: 0.4em;
+}
+section div article div p{
+    padding-top: 0.4em;
+    font-weight: 400;
+}
+section div article div{
+    padding: 0.8em;
+}
+section img {
+    width: 100%;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    background-color: #0E3B43;
+    padding: 4em 2em;
+}
+
+section h2{
+    text-align: center;
+    color: #FFFAF0; 
+    margin-bottom: 2em;
+}
+main > div:nth-child(even) {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 2em;
+    padding-bottom: 4em;
+}
+
+main > div:nth-child(even) > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+}
+
+main > div:nth-child(even) article {
+    width: 45%;
+    padding-right: 3em;
+
+}
+
+main > div:nth-child(even) h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1em;
+}
+
+main > div:nth-child(even) p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+main > div:nth-child(even) a {
+    text-decoration: none;
+    color: #ff7f50; 
+    font-weight: bolder;
+    display: block;
+    width: 7em;
+    transition: ease-in 200ms;
+}
+
+main > div:nth-child(even)  a:hover {
+    color: #c03a20;
+    transform: scale(1.3);
+}
+
+main > div:nth-child(even) div {
+    width: 45%;
+}
+
+main > div:nth-child(even) img {
+    width: 100%; 
+    border-radius: 8px;
+}
+main > div:nth-child(even) article{
+    padding-left: 5em;
+}
